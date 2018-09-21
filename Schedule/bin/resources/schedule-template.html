@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <title>课程表</title>
+
+    <style type="text/css">
+        * {
+            font-family: "微软雅黑", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        }
+        #container {
+            margin: 0 auto;
+            margin-top: 10px;
+            width: 900px;
+        }
+        h1 {
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border: none;
+            border-collapse: collapse;
+        }
+        th {
+            width: {{th-width}};
+        }
+        td, th {
+            border: 1px solid darkgray;
+            text-align: center;
+        }
+        td {
+            padding: 0;
+        }
+        .day, .rest {
+            padding: 5px 0;
+        }
+        .time {
+
+        }
+        .schedule-item {
+            padding: 5px;
+            min-height: 50px;
+        }
+        .schedule-item p {
+            padding: 0px 0px;
+            margin: 0;
+            text-align: center;
+        }
+        .info {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+<div id="container">
+    <h1>课&nbsp;&nbsp;&nbsp;程&nbsp;&nbsp;&nbsp;表</h1>
+    <div class="info">
+        {{left-info}}
+        <span style="float: right;">{{right-info}}</span>
+        <!--<span style="float: right;">2016 年 9 月 1 日</span>-->
+    </div>
+    <table>
+        {{table-content}}
+    </table>
+</div>
+</body>
+</html>

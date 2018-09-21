@@ -1,0 +1,40 @@
+QScrollBar:vertical {
+    width: 8px;
+    background: #DDD;
+    padding-bottom: 0px;
+}
+QScrollBar:horizontal {
+    height: 8px;
+    background: #DDD;
+}
+QScrollBar::handle:vertical,
+QScrollBar::handle:horizontal {
+    background: #AAA;
+}
+QScrollBar::handle:vertical:hover,
+QScrollBar::handle:horizontal:hover {
+    background: #888;
+}
+QScrollBar::sub-line:vertical, QScrollBar::add-line:vertical,
+QScrollBar::sub-line:horizontal, QScrollBar::add-line:horizontal {
+    width: 0;
+    height: 0;
+}
+
+QListView {
+    font-family: 微软雅黑;
+    font-size: 18px;
+    border: 0px solid red;
+}
+
+QListView::item {
+    color: #AAA;
+    border-bottom: 1px solid #EEE;
+    padding-left: 5px;
+}
+
+QListView::item:selected { /*被选中的index*/
+    color: black;
+	font-weight: bold;
+    background: white;
+}

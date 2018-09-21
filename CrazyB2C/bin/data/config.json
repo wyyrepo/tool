@@ -1,0 +1,24 @@
+{
+    "serverUrl": "http://www.edu-edu.com",
+    "database": {
+        "debug": true,
+        "type": "QSQLITE",
+        "host": "127.0.0.1",
+        "port": 3306,
+        "database_name": "data/data.db",
+        "username": "root",
+        "password": "root",
+        "test_on_borrow": true,
+        "test_on_borrow_sql": "SELECT 1",
+        "max_wait_time": 5000,
+        "max_connection_count": 5,
+        "sql_files": [
+            "resources/sql/name_value.sql"
+        ]
+    },
+
+    "qss_files": [
+        "resources/qss/sidebar.qss",
+        "resources/qss/scrollbar.qss"
+    ]
+}

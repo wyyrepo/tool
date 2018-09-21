@@ -1,0 +1,23 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/background.png</file>
+        <file>img/close.png</file>
+        <file>img/module.png</file>
+        <file>img/index-active.png</file>
+        <file>img/index.png</file>
+        <file>img/analysis-base-active.png</file>
+        <file>img/analysis-base.png</file>
+        <file>img/analysis-advance-active.png</file>
+        <file>img/analysis-advance.png</file>
+        <file>img/analysis-info-active.png</file>
+        <file>img/analysis-info.png</file>
+        <file>img/course.png</file>
+        <file>img/close-hover.png</file>
+        <file>img/play-active.png</file>
+        <file>img/play.png</file>
+        <file>img/start.png</file>
+        <file>img/flash.png</file>
+        <file>img/title.png</file>
+        <file>img/intro.png</file>
+    </qresource>
+</RCC>
